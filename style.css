@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+    background: #ff7d6c;
+    margin-top: 5%;
+}
+
+header, h1 {
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 0%;
+    font-size: 50px;
+    color: #7a0e00;
+}
+
+section{
+    align-content: center;
+    margin: auto;
+    width: 50vw;
+    background: white;
+    padding: 2%;
+    border-radius: 20px;
+    margin-top: 5%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+                rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+                rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+                rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+                rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+input {
+    background: #E7331A;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 5px 15px;
+    border: 1px solid #e6503c;
+    color: #F6FF92;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+input:hover{background: #F6FF92; color: #E7331A; border: 1px solid #E7331A;}
+
+
+footer {
+    text-align: center;
+    color: #810f00;
+    font-style: italic;
+}
+
+
+
+img{
+    width: 10vw;
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+
+#iniciar{
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+}

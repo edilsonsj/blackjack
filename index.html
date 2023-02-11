@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BlackJack</title>
+</head>
+<body>
+    <header>BlackJack - 21</header>
+    <section>
+        <p class="stats"></p>
+        <input id="nova-rodada" type="button" value="Nova Rodada"><br><br>
+        <div class="output-player" style="display: inline;">
+        </div>
+
+        <div class="input">
+            <p>
+                <input id="iniciar" type="button" value="Iniciar">
+                <input id="manter" type="button" value="Manter">
+                <input id="comprar" type="button" value="Comprar">
+            </p>
+
+        </div>
+        <div class="output-adversario" style="display: inline;"> 
+        </div>
+        
+        <div class="reload">
+            <p><input id="reiniciar" type="button" value="Reiniciar" onclick="window.location.reload()"></p>
+        </div>
+    </section>
+    <footer>
+        <p>
+            Lab. de Programação WEB I © 2022.2
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
